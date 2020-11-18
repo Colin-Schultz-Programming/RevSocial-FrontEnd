@@ -1,0 +1,12 @@
+export const PostActionTypes = {
+    POST_ID: 'POST_ID',
+    USER_ID: 'USER_ID',
+    TEXT: 'TEXT',
+    IMAGE:'IMAGE',
+    CREATE_DATE: 'CREATE_DATE',
+    UPDATE_DATE: 'UPDATE_DATE',
+    COMMENTS: 'COMMENTS',
+    LIKES: 'LIKES',
+    ALL_POSTS: 'ALL_POSTS',
+    CREATE_POST: 'CREATE_POST'
+}

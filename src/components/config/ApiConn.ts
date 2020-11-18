@@ -1,0 +1,1 @@
+export const API_CONN_ROOT:string = "http://localhost:8080/SocialNetwork";
