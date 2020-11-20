@@ -16,8 +16,6 @@ import { Provider } from 'react-redux';
 import { store } from './store';
 import { ViewPostComponent } from './components/userHome/viewPost/viewPostComponent';
 import {Feed} from "./components/userHome/Feed"
-import { ResetPassword } from './components/landing/resetPassword/ResetPassword';
-import { ViewSpecificPostComponent } from './components/userHome/viewPost/viewSpecificPostComponent';
 import { Search } from './components/userHome/Search';
 
 const App: React.FC<any> = () => {
@@ -42,7 +40,6 @@ const App: React.FC<any> = () => {
         </Router>
       </Provider>
     </body>
-    // <ResetPassword/>
   )
 }
 
